@@ -1,5 +1,6 @@
 package lesson4;
 
+/*
 public class Main {
     public static void main(String[] args) {
         Customer customer = getCustomer(getData());
@@ -20,3 +21,4 @@ public class Main {
         System.out.println(output);
     }
 }
+*/
