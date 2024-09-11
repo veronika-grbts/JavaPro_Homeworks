@@ -1,6 +1,6 @@
 package lesson5;
 
-public class Main {
+/*public class Main {
     public static void main(String[] args) {
         // Отримуємо вхідні дані
         String[] data = getData();
@@ -33,4 +33,4 @@ public class Main {
         System.out.println(output);
     }
 
-}
+}*/
