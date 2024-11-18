@@ -13,7 +13,6 @@ public class ArrayUtils {
 
         if (low < hight) {
             int middle = (low + hight) / 2;
-
             mergeSort1(arr, low, middle);
             mergeSort1(arr, middle + 1, hight);
             mergeSort2(arr, low, hight, middle);

@@ -33,14 +33,15 @@ public class Graph {
     }
 
     public Graph() {
+        list = new ArrayList<>();
     }
 
     public void addVertex(int vertex){
-        list = new ArrayList<>();
         for (int i = 0; i < vertex; i++) {
             list.add(new ArrayList<>());
         }
     }
+
     public void addEdge(int source, int destination) {
         list.get(source).add(destination);
         list.get(destination).add(source);
@@ -58,7 +59,11 @@ public class Graph {
     }
 
     public void removeVertex(int vertex){
-        list.remove(vertex);
+        if(hasVertex(vertex)){
+            for(ArrayList<Integer> list : list){
+                list.remove((Integer) vertex);
+            }
+        }
     }
 
     public boolean hasEdge(int source, int destination){
