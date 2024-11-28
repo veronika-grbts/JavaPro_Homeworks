@@ -1,0 +1,6 @@
+Hello World - logger
+hello java - logger
+hello word - anotherLogger
+Hello World - logger
+hello java - logger
+hello word - anotherLogger
