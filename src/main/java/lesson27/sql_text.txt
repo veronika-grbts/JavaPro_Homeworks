@@ -1,0 +1,16 @@
+CREATE TABLE users (
+id_users SERIAL PRIMARY KEY,
+name_users VARCHAR(255) NOT NULL,
+age_users INTEGER NOT NULL,
+email_users VARCHAR(255) NOT NULL
+);
+
+INSERT INTO users (name, age, email)
+VALUES
+    ('John', 30, 'john@example.com'),
+    ('Alice', 25, 'alice@example.com'),
+    ('Bob', 35, 'bob@example.com');
+	
+SELECT * FROM users
+
+DELETE FROM users WHERE name_users = 'Bob';
