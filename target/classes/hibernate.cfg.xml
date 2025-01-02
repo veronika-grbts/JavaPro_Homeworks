@@ -5,7 +5,8 @@
     <session-factory>
         <!-- PostgreSQL JDBC Properties -->
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5433/lesson30</property>
+        <!--property name="hibernate.connection.url">jdbc:postgresql://localhost:5433/lesson30</property>-->
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5433/livecode</property>
         <property name="hibernate.connection.username">postgres</property>
         <property name="hibernate.connection.password">admin</property>
 
@@ -16,7 +17,8 @@
         <property name="hibernate.hbm2ddl.auto">update</property>
 
         <!-- Annotated Classes -->
-        <mapping class="lesson30.Student"/>
-        <mapping class="lesson30.Homework"/>
+       <!-- <mapping class="lesson30.Student"/>
+        <mapping class="lesson30.Homework"/>-->
+        <mapping class="lesson31.homework.Book"/>
     </session-factory>
 </hibernate-configuration>
