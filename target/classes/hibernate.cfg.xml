@@ -19,6 +19,7 @@
         <!-- Annotated Classes -->
        <!-- <mapping class="lesson30.Student"/>
         <mapping class="lesson30.Homework"/>-->
-        <mapping class="lesson31.homework.Book"/>
+       <!-- <mapping class="lesson31.homework.Book"/>-->
+        <mapping class="lesson32.Order"/>
     </session-factory>
 </hibernate-configuration>
