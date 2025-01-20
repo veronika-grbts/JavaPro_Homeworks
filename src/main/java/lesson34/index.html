@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="calc.css">
+    <title>Калькулятор</title>
+</head>
+<body>
+<div class="calc">
+    <div class="calc-screen">
+        <p id = "answer"> </p>
+    </div>
+
+    <div class="buttons">
+        <button class="btn ac bg-grey"  data-type="clear" >ac</button>
+        <button class="btn  bg-orange" data-key="division" data-type="operator">/</button>
+        <button class="btn  bg-orange" data-key="myltiply" data-type="operator">x</button>
+
+        <button class="btn seven" data-type="number">7</button>
+        <button class="btn eigth" data-type="number">8</button>
+        <button class="btn  nine" data-type="number">9</button>
+        <button class="btn  bg-orange" data-key="minus" data-type="operator">-</button>
+
+        <button class="btn  four" data-type="number">4</button>
+        <button class="btn  five" data-type="number">5</button>
+        <button class="btn six" data-type="number">6</button>
+        <button class="btn  bg-orange" data-key="plus" data-type="operator">+</button>
+
+
+        <button class="btn one" data-type="number">1</button>
+        <button class="btn  two" data-type="number">2</button>
+        <button class="btn tree" data-type="number">3</button>
+
+        <button class="btn  zero" data-type="number">0</button>
+        <button class="btn equal bg-orange" data-type="equal">=</button>
+        <button class="btn dot bg-orange" data-type="decimal">.</button>
+    </div>
+</div>
+<script src="calc.js"></script>
+</body>
+</html>
